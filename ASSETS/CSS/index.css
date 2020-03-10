@@ -1,0 +1,69 @@
+.logo-win {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: orange solid 5px;
+}
+.logo{
+    width: 150px;
+    height: 150px;
+    border-radius: 35%;
+    border: orange solid 4px;
+}
+.body{
+    width: 100%;
+    height: 100%;
+    background-color: thistle;
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.fondo{
+    background-image: url(../IMG/Geografia.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:solid brown 4px;  
+    display: flex;
+    justify-content: space-around;
+}
+.fondo-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.filtro{
+    border: rgb(180, 112, 24) 8px solid;
+    background-color: #17547c;
+    height: 100px;
+    width: 100%;
+    padding: 10px;
+    background-size: cover;
+    display: flex;
+    justify-content:space-between;
+}   
+.container-cards{
+        background-color: burlywood;
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 10px;
+}
+
+footer{
+    border:orangered 3px;
+    background-color: orange;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-end;
+}
+.redes{
+    width:70px;
+    height:70px;
+    border-radius: 20%;
+}
