@@ -55,7 +55,7 @@
 footer{
     border:orangered 3px;
     background-color: orange;
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
     display: flex;
